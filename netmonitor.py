@@ -366,8 +366,10 @@ def main():
         type=int,
         default=DEFAULT_PACKET_SIZE,
         help=(
-            "number of data bytes to be sent per packet (default: %(default)s)"
-            "("+ str(MIN_PACKET_SIZE) + "< packet size <" + str(MAX_PACKET_SIZE) + ")"
+            "data bytes per packet, min:"+ str(MIN_PACKET_SIZE)
+            + " max:" + str(MAX_PACKET_SIZE)
+            + " (default: %(default)s)"
+            
         ),
     )
 
