@@ -176,7 +176,7 @@ class NetHealthMonitor:
         return packet
 
     # =========================================================================#
-    def signal_handler(self, signum):
+    def signal_handler(self, signum, frame):
         """
         Handle exit via signals
         """
