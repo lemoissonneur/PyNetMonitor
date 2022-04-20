@@ -386,7 +386,7 @@ def main():
         "--duration",
         type=int,
         default=0,
-        help=("elapsed time before ending monitoring (default: none)"),
+        help=("elapsed time in seconds before ending monitoring (default: none)"),
     )
 
     parser.add_argument("destination")
